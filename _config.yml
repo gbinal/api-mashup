@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
 name: 18F Guides Template
 exclude:
 - CONTRIBUTING.md
