@@ -9,12 +9,12 @@ exclude:
 - go
 - vendor
 
-permalink: pretty
-highlighter: rouge
-incremental: true
+# permalink: pretty
+# highlighter: rouge
+# incremental: true
 
-sass:
-  style: :compressed
+# sass:
+#   style: :compressed
 
 # Author/Organization info to be displayed in the templates
 author:
@@ -43,16 +43,16 @@ back_link:
   url: "https://pages.18f.gov/guides/"
   text: Read more 18F Guides
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+# collections:
+#   pages:
+#     output: true
+#     permalink: /:path/
 
-defaults:
-- scope:
-    path: ""
-  values:
-    layout: "guides_style_18f_default"
+# defaults:
+# - scope:
+#     path: ""
+#   values:
+#     layout: "guides_style_18f_default"
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
