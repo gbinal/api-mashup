@@ -1,13 +1,5 @@
 markdown: kramdown
 name: 18F Guides Template
-exclude:
-- CONTRIBUTING.md
-- Gemfile
-- Gemfile.lock
-- LICENSE.md
-- README.md
-- go
-- vendor
 
 # permalink: pretty
 # highlighter: rouge
