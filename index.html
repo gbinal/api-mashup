@@ -25,7 +25,7 @@
   getData();
 
   function getData() {
-    var url = 'https://autoapi-ed.apps.cloud.gov/dummy-data-1-1';
+    var url = 'https://api.18f.gov/ed/data/dummy-data-1-1?api_key=DEMO_KEY1&official_tree=pine';
 
     $.getJSON(url, function(response) {
       var data = response.resources;
