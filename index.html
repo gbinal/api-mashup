@@ -33,7 +33,7 @@
   getData();
 
   function getData() {
-    var url = 'https://api.gsa.gov/systems/digital-registry/v1/social_media.json?services=twitter&agencies=91';
+    var url = 'https://raw.githubusercontent.com/GSA/slash-developer-pages/master/slash-developer-pages.json';
 
     $.getJSON(url, function(response) {
       var data = response.resources;
