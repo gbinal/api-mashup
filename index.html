@@ -33,7 +33,7 @@
   getData();
 
   function getData() {
-    var url = 'https://api.data.gov/sftool/v1/building-systems/1/resources?api_key=DEMO_KEY';
+    var url = 'https://developer.nrel.gov/api/alt-fuel-stations/v1/nearest.json?api_key=EgzlgmfOMtnRUzp4pcooYi1BYg1YQga1reObqcvr&location=20001';
 
     $.getJSON(url, function(response) {
       var data = response.resources;
