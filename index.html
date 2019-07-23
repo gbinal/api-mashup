@@ -33,7 +33,7 @@
   getData();
 
   function getData() {
-    var url = 'https://raw.githubusercontent.com/GSA/slash-developer-pages/master/slash-developer-pages.json';
+    var url = 'https://catalog.data.gov/api/3/action/package_search?fq_list=organization:usda-gov&fq_list=res_format:API&rows=20';
 
     $.getJSON(url, function(response) {
       var data = response.resources;
